@@ -351,6 +351,7 @@ MonoBehaviour:
   horizontalMove: 0
   verticalMove: 0
   bala: {fileID: 6797827964062895424, guid: f5af29fd78b7b84419521321d9358876, type: 3}
+  mejoraDash: 1
 --- !u!61 &249308511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -408,7 +409,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

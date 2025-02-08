@@ -9,6 +9,7 @@ public class Enemigo : MonoBehaviour
     [SerializeField] private int Vida;
     [SerializeField] private int Velocidad;
     [SerializeField] private GameObject objetoDestruir;
+    [SerializeField] private GameObject Explosion;
     private int Contador = 0;
     
     void Start()
@@ -28,6 +29,11 @@ public class Enemigo : MonoBehaviour
         {
             Debug.Log("Player");
             barraHP.RecibirDanio(Danio);
+            GameObject explosion = Instantiate(Explosion, transform.position, Quaternion.identity);
+            SoundManager.instance.PlaySound("explosion");
+            GameManager.DestruirTodosLosHijos(objetoDestruir);
+            Destroy(objetoDestruir);
+            Destroy(explosion, 0.35f);
         }
 
         if (other.gameObject.CompareTag("Bala"))
@@ -43,9 +49,11 @@ public class Enemigo : MonoBehaviour
 
     private void Morir()
     {
+        GameObject explosion = Instantiate(Explosion, transform.position, Quaternion.identity);
         SoundManager.instance.PlaySound("explosion");
         GameManager.DestruirTodosLosHijos(objetoDestruir);
         Destroy(objetoDestruir);
         Puntuacion.SumarPuntos(10);
+        Destroy(explosion, 0.35f);
     }
 }

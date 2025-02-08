@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovimientoNave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoFondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovimientoFondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\SoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +30,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MovimientoNave.cs",
+              "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoNave.cs",
+              "ToolTip": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovimientoNave.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:56:45.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovimientoFondo.cs",
+              "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoFondo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoFondo.cs",
+              "ToolTip": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoFondo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovimientoFondo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:52:17.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
@@ -34,16 +71,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SoundManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T16:54:08.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-02-08T16:54:08.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Enemigo.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Enemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo.cs",
@@ -51,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemigo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:03:06.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T09:03:06.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Bala.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Bala.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bala.cs",

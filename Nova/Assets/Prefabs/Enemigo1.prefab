@@ -147,6 +147,7 @@ MonoBehaviour:
   Vida: 2
   Velocidad: 5
   objetoDestruir: {fileID: 3972114123865785351}
+  Explosion: {fileID: 521184911432712000, guid: 43e459a53714dd44799a46f97a24d83b, type: 3}
 --- !u!1 &3972114123865785351
 GameObject:
   m_ObjectHideFlags: 0
