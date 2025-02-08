@@ -4,10 +4,22 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    [SerializeField] public HPmanager barraHP;
+    private HPmanager barraHP;
     [SerializeField] private int Danio;
     [SerializeField] private int Vida;
+    [SerializeField] private int Velocidad;
+    [SerializeField] private GameObject objetoDestruir;
     private int Contador = 0;
+    
+    void Start()
+    {
+        barraHP = FindObjectOfType<HPmanager>();
+    }
+
+    void Update()
+    {
+        transform.position += new Vector3(0, -Velocidad * Time.deltaTime, 0);
+    }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -31,7 +43,9 @@ public class Enemigo : MonoBehaviour
 
     private void Morir()
     {
-        Destroy(gameObject);
+        SoundManager.instance.PlaySound("explosion");
+        GameManager.DestruirTodosLosHijos(objetoDestruir);
+        Destroy(objetoDestruir);
         Puntuacion.SumarPuntos(10);
     }
 }

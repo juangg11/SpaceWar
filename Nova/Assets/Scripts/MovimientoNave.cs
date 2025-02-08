@@ -27,6 +27,7 @@ public class MovimientoNave : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            SoundManager.instance.PlaySound("jump");
             GameObject balaInstanciada = Instantiate(bala, transform.position + new Vector3(0, 1, 0), Quaternion.identity);
             StartCoroutine(borrar(balaInstanciada));
         }

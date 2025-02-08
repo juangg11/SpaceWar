@@ -374,9 +374,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Bala.cs"
 "Assets/Scripts/Enemigo.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HPmanager.cs"
+"Assets/Scripts/MovimientoFondo.cs"
 "Assets/Scripts/MovimientoNave.cs"
+"Assets/Scripts/MusicManager.cs"
 "Assets/Scripts/Puntuacion.cs"
+"Assets/Scripts/SoundManager.cs"
 -langversion:9.0
 /deterministic
 /optimize-
