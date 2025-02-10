@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Nova.sln"
+    "dotnet.defaultSolution": "Nova.sln",
+    "dotnet.preferCSharpExtension": true
 }

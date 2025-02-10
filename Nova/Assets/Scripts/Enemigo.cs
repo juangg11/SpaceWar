@@ -40,6 +40,7 @@ public class Enemigo : MonoBehaviour
         {
             Debug.Log("Bala");
             Contador++;
+            Destroy(other.gameObject);
             if (Contador == Vida)
             {
                 Morir();

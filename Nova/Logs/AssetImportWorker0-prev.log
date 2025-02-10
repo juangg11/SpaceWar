@@ -15,7 +15,7 @@ C:/Users/jg200/OneDrive/Escritorio/Escritorio/SpaceWar/Nova
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59618
+52542
 Successfully changed project path to: C:/Users/jg200/OneDrive/Escritorio/Escritorio/SpaceWar/Nova
 C:/Users/jg200/OneDrive/Escritorio/Escritorio/SpaceWar/Nova
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/jg200/OneDrive/Escritorio/Escritorio/SpaceWar/Nova
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28204] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4210135267 [EditorId] 4210135267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1UNNK9V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12408] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3022212032 [EditorId] 3022212032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1UNNK9V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28204] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4210135267 [EditorId] 4210135267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1UNNK9V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12408] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3022212032 [EditorId] 3022212032 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1UNNK9V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 36.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 40.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028700 seconds.
-- Loaded All Assemblies, in  0.455 seconds
+Registered in 0.029827 seconds.
+- Loaded All Assemblies, in  0.495 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.262 seconds
-Domain Reload Profiling: 705ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.279 seconds
+Domain Reload Profiling: 761ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (262ms)
+	FinalizeReload (279ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (218ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (138ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 705ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.023 seconds
-Refreshing native plugins compatible for Editor in 22.03 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.094 seconds
+Refreshing native plugins compatible for Editor in 20.66 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.141 seconds
-Domain Reload Profiling: 2143ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  1.200 seconds
+Domain Reload Profiling: 2271ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (686ms)
-		LoadAssemblies (646ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (704ms)
+		LoadAssemblies (684ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (126ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1141ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1200ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (976ms)
+		SetupLoadedEditorAssemblies (1048ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (695ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (36ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (758ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (38ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 20.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 19.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (245.4 KB). Loaded Objects now: 4522.
+Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (245.2 KB). Loaded Objects now: 4523.
 Memory consumption went from 148.3 MB to 148.1 MB.
-Total: 3.968800 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.240900 ms MarkObjects: 3.233700 ms  DeleteObjects: 0.211200 ms)
+Total: 4.048600 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.244900 ms MarkObjects: 3.255800 ms  DeleteObjects: 0.204500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,17 +177,700 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36246.856036 seconds.
-  path: Assets/Assets/Fondos/Strip And GIF
-  artifactKey: Guid(db02b73f4b2c2bd44a000a294dad458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Fondos/Strip And GIF using Guid(db02b73f4b2c2bd44a000a294dad458b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffebda10b604c75ffe210f0a55711bc4') in 0.002798 seconds
+  Time since last request: 30338.857851 seconds.
+  path: Assets/Assets/Boss1/Base
+  artifactKey: Guid(b5cc8565034755b45b1befb0cea0c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base using Guid(b5cc8565034755b45b1befb0cea0c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294b282bcc6631c5e9871419034d0e53') in 0.002759 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.732870 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000493 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Support ship - Base.aseprite
+  artifactKey: Guid(53017b68188244640808138c3d675988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Support ship - Base.aseprite using Guid(53017b68188244640808138c3d675988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e67417d90bd3425eb1bb5975b9ceff') in 0.108865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Boss1/Base/PNGs
+  artifactKey: Guid(d7683cb173318ef41a9f0a75ff12ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/PNGs using Guid(d7683cb173318ef41a9f0a75ff12ecb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30a80d4a876e05b66eabd8209ef631b') in 0.000551 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Fighter - Base.aseprite
+  artifactKey: Guid(ba91381f8a4c4f244a20689d881cb39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Fighter - Base.aseprite using Guid(ba91381f8a4c4f244a20689d881cb39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfbde6b19dd9fea9ae10e5f34f5c736') in 0.022588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Frigate - Base.aseprite
+  artifactKey: Guid(becadc71729a07d41b1811516db2d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Frigate - Base.aseprite using Guid(becadc71729a07d41b1811516db2d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2258c281db635cfe3d2e8c1c7fa1fd20') in 0.023867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Boss1/Base/PNGs/Kla'ed - Dreadnought - Base.png
+  artifactKey: Guid(a3af36282b9d1ad42b715f4b58bf609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/PNGs/Kla'ed - Dreadnought - Base.png using Guid(a3af36282b9d1ad42b715f4b58bf609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da6d518d0266bb2b5a89e58bd3f170') in 0.046140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Boss1
+  artifactKey: Guid(a6f2feab8611f3642aaf89c93ee637a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1 using Guid(a6f2feab8611f3642aaf89c93ee637a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bb7fd016ed30ad3e131dcf8f861a07') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Dreadnought - Base.aseprite
+  artifactKey: Guid(6d88a8c1f439c2a4a95b0776a9d69755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/Aseprite/Kla'ed - Dreadnought - Base.aseprite using Guid(6d88a8c1f439c2a4a95b0776a9d69755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2ebaba27050fe3eb61be2c810851c0') in 0.025198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Boss1/Base/PNGs/Kla'ed - Fighter - Base.png
+  artifactKey: Guid(1752f0e74e4c0b14a967603b3eb194a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/PNGs/Kla'ed - Fighter - Base.png using Guid(1752f0e74e4c0b14a967603b3eb194a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fb9c7bbc80cad0f3eb5842b9498d46') in 0.019791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Boss1/Base/PNGs/Kla'ed - Torpedo Ship - Base.png
+  artifactKey: Guid(11b97f86774629848b12dfac67afe83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Base/PNGs/Kla'ed - Torpedo Ship - Base.png using Guid(11b97f86774629848b12dfac67afe83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d12544306be04406e5ab6cc835c6fe7') in 0.018697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 70.703609 seconds.
+  path: Assets/Assets/Boss1/Destruction
+  artifactKey: Guid(de5072943dbd70b4d92c00b4bb8f9531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction using Guid(de5072943dbd70b4d92c00b4bb8f9531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6244e7f0865b3bb88bb4a1a83737b658') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.842350 seconds.
+  path: Assets/Assets/Boss1/Destruction/Aseprite
+  artifactKey: Guid(1d2995a30810148458bfb9c70809532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/Aseprite using Guid(1d2995a30810148458bfb9c70809532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494b6506b948ef66dba0afa387bfe988') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092561 seconds.
+  path: Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Battlecruiser - Destruction.aseprite
+  artifactKey: Guid(21a9f2388ffea4f408dcc9d5afdd8900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Battlecruiser - Destruction.aseprite using Guid(21a9f2388ffea4f408dcc9d5afdd8900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6725f46fc84034a0fbfac1ff6feff2') in 0.041224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Fighter - Destruction.aseprite
+  artifactKey: Guid(eac59628b6cbaad4f9d2aa14c7817f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Fighter - Destruction.aseprite using Guid(eac59628b6cbaad4f9d2aa14c7817f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2de1db454bd8c5c2729ae5aaabda62') in 0.030297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.017169 seconds.
+  path: Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Scout - Destruction.aseprite
+  artifactKey: Guid(7717dc043f2c2a64ba11c38e5ee04d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Scout - Destruction.aseprite using Guid(7717dc043f2c2a64ba11c38e5ee04d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a81dbf85eb20443f0b8e3abca57014') in 0.040613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Torpedo Ship - Destruction.aseprite
+  artifactKey: Guid(6957861d8dd0aa94495d6d233fb836c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/Aseprite/Kla'ed - Torpedo Ship - Destruction.aseprite using Guid(6957861d8dd0aa94495d6d233fb836c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eae2a291d6f5fddbccc1edd485a878c') in 0.038732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 15.568442 seconds.
+  path: Assets/Assets/Boss1/Engine
+  artifactKey: Guid(2d826eb2bf4fff7428c3e02ad22bbc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine using Guid(2d826eb2bf4fff7428c3e02ad22bbc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ac301e23cc7e26057e808b1230d1b') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.961964 seconds.
+  path: Assets/Assets/Boss1/Engine/PNGs
+  artifactKey: Guid(f1f123ba49023984dbf0d4aa25e88986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/PNGs using Guid(f1f123ba49023984dbf0d4aa25e88986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331300fd8eb6e0bbd45231903af55e6c') in 0.000488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048344 seconds.
+  path: Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Battlecruiser - Engine.png
+  artifactKey: Guid(d1a515d91abbf7e4a800eb79d14bb59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Battlecruiser - Engine.png using Guid(d1a515d91abbf7e4a800eb79d14bb59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe88d8f4baf8b3f2c95a8d7e31fe3da') in 0.015262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006311 seconds.
+  path: Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Dreadnought - Engine.png
+  artifactKey: Guid(3377b5d3f24eb1c40aeffb93d7f71161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Dreadnought - Engine.png using Guid(3377b5d3f24eb1c40aeffb93d7f71161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0522d22d5a90633b424e8bad3b8929eb') in 0.015384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007156 seconds.
+  path: Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Frigate - Engine.png
+  artifactKey: Guid(6e012b246229c2542a1f7a0c0f2bd08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Frigate - Engine.png using Guid(6e012b246229c2542a1f7a0c0f2bd08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45747c3d542dd50ce30ab4561d5ed1e') in 0.014903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007688 seconds.
+  path: Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Support ship - Engine.png
+  artifactKey: Guid(1b77005e55ed3c5499248506eb89ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/PNGs/Kla'ed - Support ship - Engine.png using Guid(1b77005e55ed3c5499248506eb89ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6fbeb3f124ea5941d1ddd1740fddce') in 0.014942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.109012 seconds.
+  path: Assets/Assets/Boss1/Weapons
+  artifactKey: Guid(b5f3030baa3a6054a9a123622ea13095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons using Guid(b5f3030baa3a6054a9a123622ea13095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dbf1c86e2b3b950f375ac6b9a20ac1') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.926307 seconds.
+  path: Assets/Assets/Boss1/Weapons/PNGs
+  artifactKey: Guid(aed3c938bae9e1f46a7e70e243b021f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/PNGs using Guid(aed3c938bae9e1f46a7e70e243b021f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135636c6155e80df2fb7f0339da8b9c1') in 0.000550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058040 seconds.
+  path: Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Battlecruiser - Weapons.png
+  artifactKey: Guid(b307bff3da0c34b4690f6a53ad65fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Battlecruiser - Weapons.png using Guid(b307bff3da0c34b4690f6a53ad65fcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9286709f0a5f3e73672576042c30606b') in 0.018370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005988 seconds.
+  path: Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Fighter - Weapons.png
+  artifactKey: Guid(a0e579434654dba47bd6d6c8afe90ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Fighter - Weapons.png using Guid(a0e579434654dba47bd6d6c8afe90ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c799fe1ac058e368694573d145e89683') in 0.016182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007552 seconds.
+  path: Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Scout - Weapons.png
+  artifactKey: Guid(20cd83f7a4a14ff44a6a0d5cd2fdf7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/PNGs/Kla'ed - Scout - Weapons.png using Guid(20cd83f7a4a14ff44a6a0d5cd2fdf7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b83060cdeba0b71709ce3428508006') in 0.015527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.933055 seconds.
+  path: Assets/Assets/Boss1/Weapons/Aseprite
+  artifactKey: Guid(3e69b67f4121566459c37d4e7cb40d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/Aseprite using Guid(3e69b67f4121566459c37d4e7cb40d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963941b2e3f8025a9a155b6f887588d7') in 0.000758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067131 seconds.
+  path: Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Battlecruiser - Weapons.aseprite
+  artifactKey: Guid(37d0ea4ae4c80c549bfe803e18e58ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Battlecruiser - Weapons.aseprite using Guid(37d0ea4ae4c80c549bfe803e18e58ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3c40c9f5cf52ca968016fbb9dbfee2') in 0.069019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Frigate - Weapons.aseprite
+  artifactKey: Guid(f0cdcf31ba0fbe7408b77349554a53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Frigate - Weapons.aseprite using Guid(f0cdcf31ba0fbe7408b77349554a53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1237083f5738f2ca99a04b4915e2f26d') in 0.030677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Scout - Weapons.aseprite
+  artifactKey: Guid(4d69b4682cef5e5448cbaa0773985364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Scout - Weapons.aseprite using Guid(4d69b4682cef5e5448cbaa0773985364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fbaf244ec3aed6653d6a205fd9a741') in 0.032673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Torpedo Ship - Weapons.aseprite
+  artifactKey: Guid(4e5e0c4754d09544dba6d774be7169bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Weapons/Aseprite/Kla'ed - Torpedo Ship - Weapons.aseprite using Guid(4e5e0c4754d09544dba6d774be7169bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c616384c0f7a00cb851d3cdf6eb453bd') in 0.041988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 12.773195 seconds.
+  path: Assets/Assets/Boss1/Projectiles
+  artifactKey: Guid(cd7237db85aca784e9f889ae51d85feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles using Guid(cd7237db85aca784e9f889ae51d85feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b72d415a4448bb2f3f980c13f100d3f') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.688082 seconds.
+  path: Assets/Assets/Boss1/Projectiles/PNGs
+  artifactKey: Guid(2610b73f16fc183439c2d34de53d5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/PNGs using Guid(2610b73f16fc183439c2d34de53d5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b0131086f671da261773e1057e8101') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.186417 seconds.
+  path: Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Big Bullet.png
+  artifactKey: Guid(40e8c0280aff94049b4828443d0fd0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Big Bullet.png using Guid(40e8c0280aff94049b4828443d0fd0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582402bb9c0c64b4aa95bc6889c0ad3b') in 0.014637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009851 seconds.
+  path: Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Ray.png
+  artifactKey: Guid(e3478f95763b01342aaeb78f57141e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Ray.png using Guid(e3478f95763b01342aaeb78f57141e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be2fe2e2b8e58ae192d4649788462c4') in 0.016009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006848 seconds.
+  path: Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Torpedo.png
+  artifactKey: Guid(671275754259a5b4ea1f2c5c59dda834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/PNGs/Kla'ed - Torpedo.png using Guid(671275754259a5b4ea1f2c5c59dda834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047075e86242b1a95da0109c879ba904') in 0.015922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 78.872099 seconds.
+  path: Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Wave.aseprite
+  artifactKey: Guid(9a174e900440be845bce158c399d5e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Wave.aseprite using Guid(9a174e900440be845bce158c399d5e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97909752fae1e3df408243559195b82f') in 0.027091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.244504 seconds.
+  path: Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Torpedo.aseprite
+  artifactKey: Guid(171ed393176110b4487aaa909a2b4576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Torpedo.aseprite using Guid(171ed393176110b4487aaa909a2b4576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99fa1f7cfe712d58a0109590c55db30') in 0.024545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.455479 seconds.
+  path: Assets/Assets/Boss1/Shield/Aseprite/Kla'ed - Torpedo Ship - Shield.aseprite
+  artifactKey: Guid(a9e944683f9b9924587559dd80b92261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Shield/Aseprite/Kla'ed - Torpedo Ship - Shield.aseprite using Guid(a9e944683f9b9924587559dd80b92261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6dbd902b10754156d29cc14d86751a') in 0.036815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.329783 seconds.
+  path: Assets/Assets/Boss1/Engine/Aseprite/Kla'ed - Torpedo Ship - Engine.aseprite
+  artifactKey: Guid(d4391801524f33745b47600794665788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/Aseprite/Kla'ed - Torpedo Ship - Engine.aseprite using Guid(d4391801524f33745b47600794665788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46093f136cef6756f33f9c64c7237f31') in 0.032782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.732108 seconds.
+  path: Assets/Assets/Boss1/Destruction/PNGs/Kla'ed - Torpedo Ship - Destruction.png
+  artifactKey: Guid(6ae1bb9348fab6f4e8946f9f3aa7cfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/PNGs/Kla'ed - Torpedo Ship - Destruction.png using Guid(6ae1bb9348fab6f4e8946f9f3aa7cfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010f0af4013c76767e137abc6123da78') in 0.016866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.044332 seconds.
+  path: Assets/Assets/Boss1/Engine/Aseprite/Kla'ed - Support ship - Engine.aseprite
+  artifactKey: Guid(8324a1a6a6f1d9a4d8fcc68af91714b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Engine/Aseprite/Kla'ed - Support ship - Engine.aseprite using Guid(8324a1a6a6f1d9a4d8fcc68af91714b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a7c5bf8dd8c033f9bf474099c8e32b') in 0.034354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.612859 seconds.
+  path: Assets/Assets/Boss1/Destruction/PNGs/Kla'ed - Support ship - Destruction.png
+  artifactKey: Guid(782e7989d4d62c042a519be99c1f2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Destruction/PNGs/Kla'ed - Support ship - Destruction.png using Guid(782e7989d4d62c042a519be99c1f2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea372c0e780ad987fa940c1f954ef3a3') in 0.019010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.308862 seconds.
+  path: Assets/Assets/Boss1/Shield/Aseprite/Kla'ed - Scout - Shield.aseprite
+  artifactKey: Guid(b917bc78bc583d1489fafa284b653d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Shield/Aseprite/Kla'ed - Scout - Shield.aseprite using Guid(b917bc78bc583d1489fafa284b653d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2113d6409cded4d3beb13d9e13880c1a') in 0.040935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.977 seconds
+Refreshing native plugins compatible for Editor in 22.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.618 seconds
+Domain Reload Profiling: 3566ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (726ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (976ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 22.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (217.2 KB). Loaded Objects now: 4611.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 4.219200 ms (FindLiveObjects: 0.479100 ms CreateObjectMapping: 0.273100 ms MarkObjects: 3.288700 ms  DeleteObjects: 0.177000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.981 seconds
+Refreshing native plugins compatible for Editor in 22.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.547 seconds
+Domain Reload Profiling: 3502ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (715ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 19.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (217.3 KB). Loaded Objects now: 4615.
+Memory consumption went from 152.4 MB to 152.2 MB.
+Total: 3.808800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.223400 ms MarkObjects: 3.131000 ms  DeleteObjects: 0.173800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.834 seconds
+Refreshing native plugins compatible for Editor in 21.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.513 seconds
+Domain Reload Profiling: 3324ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (599ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (983ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (711ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (39ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 19.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (217.4 KB). Loaded Objects now: 4619.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 3.870200 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.116800 ms  DeleteObjects: 0.187000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 22.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.510 seconds
+Domain Reload Profiling: 3314ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (589ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (957ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 19.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (218.3 KB). Loaded Objects now: 4623.
+Memory consumption went from 156.2 MB to 156.0 MB.
+Total: 3.582800 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.116100 ms MarkObjects: 2.907000 ms  DeleteObjects: 0.181000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.901 seconds
+Refreshing native plugins compatible for Editor in 25.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.522 seconds
+Domain Reload Profiling: 3399ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (650ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (980ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (702ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 20.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (217.4 KB). Loaded Objects now: 4627.
+Memory consumption went from 158.2 MB to 158.0 MB.
+Total: 3.615900 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.111800 ms MarkObjects: 3.037100 ms  DeleteObjects: 0.181500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1000.209379 seconds.
+  path: Assets/Assets/Boss1/Projectiles/Aseprite
+  artifactKey: Guid(86f685fa8a8828647b209c07a8245daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/Aseprite using Guid(86f685fa8a8828647b209c07a8245daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668a58531f92a6260caa3b6c2d1b253') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055604 seconds.
+  path: Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Big Bullet.aseprite
+  artifactKey: Guid(b11d0b18c09e7ef4ba8c4766bee15bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Big Bullet.aseprite using Guid(b11d0b18c09e7ef4ba8c4766bee15bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b2443e6ede12756e05a25799356731') in 0.074869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Ray.aseprite
+  artifactKey: Guid(71cf89b0fb34dc74886ca9903c1fea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Boss1/Projectiles/Aseprite/Kla'ed - Ray.aseprite using Guid(71cf89b0fb34dc74886ca9903c1fea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87332ba70b3ff2a52ba66452a17c46bc') in 0.025048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15

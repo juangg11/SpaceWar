@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Dron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Dron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Bala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Bala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MovimientoNave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\assets\\scripts\\bala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\bala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dron.cs",
+              "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Dron.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dron.cs",
+              "ToolTip": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Dron.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dron.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T21:14:19.922Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MovimientoNave.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoNave.cs",
               "ToolTip": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoNave.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovimientoNave.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDYAAAABAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAkwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:56:45.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T18:56:45.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MovimientoFondo.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\MovimientoFondo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovimientoFondo.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Enemigo.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Enemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigo.cs",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Bala.cs",
               "DocumentMoniker": "C:\\Users\\jg200\\OneDrive\\Escritorio\\Escritorio\\SpaceWar\\Nova\\Assets\\Scripts\\Bala.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bala.cs",
@@ -95,7 +111,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Bala.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T14:23:08.707Z"
+              "WhenOpened": "2025-02-07T14:23:08.707Z",
+              "EditorCaption": ""
             }
           ]
         }
